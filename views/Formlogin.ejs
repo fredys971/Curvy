@@ -1,0 +1,21 @@
+<%- include('header') -%>
+<main>
+    <h2>Formlogin</h2>
+    <form method="post" action="/login" id="loginForm"> 
+        <% if (locals.message) { %>
+          <p><%= message %></p>
+        <% } %>
+        <p>
+            <label for="pseudo">Pseudo</label>
+            <input type="text" name="pseudo" id="pseudo" />     
+        </p>
+        <p>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />   
+        </p>
+        <p>
+            <button type="submit">login</button>
+        </p>
+    </form>
+</main>
+<%- include('footer') -%>

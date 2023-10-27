@@ -1,0 +1,25 @@
+{
+  "name": "CurvyEleganceHub",
+  "version": "1.0.0",
+  "description": "CurvyEleganceHub avec sauvegarde des données",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "frédérique",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "csv": "^5.3.2",
+    "csv-express": "^1.2.2",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-session": "^1.17.3",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.0.1",
+    "uuid": "^9.0.1",
+    "xss": "^1.0.14"
+  }
+}

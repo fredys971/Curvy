@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Site de Vente de Vêtements pour Femmes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Votre destination de mode grande taille élégante. Découvrez notre collection exclusive de vêtements pour exprimer votre style, quelle que soit votre taille.">
+    <meta name="keywords" content="mode grande taille, vêtements élégants, courbes, élégance, fashion, tailles plus">
+    <link rel="stylesheet" href="/css/CurvyEleganceHub.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <header>
+        <div class="header-content">
+            <h1>CurvyEleganceHub</h1>
+            <nav>
+                <a href= "/Connexion" id="connexionBtn">Connexion</a>
+                <span class="button-separator"></span>
+                <a href="/Inscription" id="inscriptionBtn" >Inscription</a>
+
+                <button id="activerContraste">
+                <span class="visually-hidden">Activer le Contraste</span></button>
+
+                <button id="desactiverContraste">
+                <span class="visually-hidden">Désactiver le Contraste</span></button>
+
+                <button id="augmenterPolice">
+                <span class="visually-hidden">Augmenter la Police</span></button>
+
+                <button id="diminuerPolice">
+                <span class="visually-hidden">Diminuer la Police</span></button>
+
+                <div class="error-message">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <span>Veuillez remplir ce champ.</span>
+                </div>
+            </nav>
+
+            <ul>
+                <li><a href="/" aria-label="Accueil">Accueil</a></li>
+                <li><a href="/apropos" aria-label="apropos">À propos</a></li>
+                <li><a href="/contact" aria-label="contact">Contact</a></li>
+                <li><a href="/produits" aria-label="produits">Produits</a></li>
+                <li><a href="/panier" aria-label="panier">Panier</a></li>
+                <li><a href="/moncompte" aria-label="moncompte">Mon compte</a></li>
+            </ul>
+
+            <form id="searchForm" action="/recherche" method="get">
+                <label for="query" class="visually-hidden">Recherche :</label>
+                <input type="text" id="nom" name="nom" placeholder="" aria-label="Barre de Recherche">
+                <input type="submit" value="Rechercher">
+            </form>
+        </div>
+    </header>
+</div>
+

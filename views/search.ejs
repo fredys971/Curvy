@@ -1,0 +1,10 @@
+<%- include('header') -%>
+<main>
+    <h2>Résultats de la recherche :</h2>
+    <ul>
+        <% results.forEach(result => { %>
+            <li><%= result.description %></li>
+        <% }); %>
+    </ul>
+</main>
+<%- include('footer') -%>
